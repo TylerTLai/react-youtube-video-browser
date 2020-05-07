@@ -4,8 +4,6 @@ import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
-console.log(process.env.REACT_APP_YOUTUBE_API_KEY);
-
 class App extends Component {
   state = { videos: [], selectedVideo: null };
 
